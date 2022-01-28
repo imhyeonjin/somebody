@@ -8,13 +8,13 @@ body{
 	line-height:24px;
 }
 /*popup_S*/
-.popup_btn{position: fixed; bottom: 50px; right: 50px; z-index: 1;}
+#popup_btn{position: fixed; bottom: 50px; right: 50px; z-index: 1;}
 .popup{
 	width: 350px;
 	height: 600px;
 	background-color: rgb(255, 255, 255);
 	border-radius: 40px;
-	box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+	box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.15);
 	position: fixed;
 	bottom: 45px;
 	right: 45px;
@@ -47,9 +47,10 @@ body{
 	height: 290px;
 	width: 300px;
 	padding: 20px;
+	margin-top: 5px;
 	background-color: rgb(255, 255, 255);
 	border-radius: 40px;
-	box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+	box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.15);
 }
 .popup_text{
 	background: url(../images/popup/popup_inbox_logo.png) no-repeat left top;
@@ -181,6 +182,9 @@ body{
 #media{
 	text-align: center;
 }
+#media img{
+	width: 100%;
+}
 /*container_1_S*/
 #container_1{
 	width: 1320px;
@@ -218,7 +222,6 @@ body{
 }
 .pic_all img{
 	margin-bottom: 20px;
-	padding-right: 30px;
 }
 .pic1{display: none;}
 .pic2{display: none;}
@@ -325,17 +328,17 @@ body{
 	width: 570px;
 	height: 55px;
 	outline-style: none;
+	padding: 0 20px;
 }
 .chat_input input::placeholder{
 	color: #c1c1c1;
 	font-size: 16px;
-	font-weight: 500;
+	font-weight: 400;
 	font-family: 'Noto Sans KR', sans-serif;
-	padding-left: 20px;
 }
 .send_btn{
 	position: absolute;
-	bottom: 120px;
+	bottom: 123px;
 	right: 40px;
 }
 .character{
@@ -444,16 +447,18 @@ body{
 	position: absolute;
 	bottom: 45px;
 	right: 220px;
+	cursor: pointer;
 }
 .apple_btn{
 	position: absolute;
 	bottom: 45px;
 	right: 90px;
+	cursor: pointer;
 }
 /*container_2_S*/
 #container_2{
 	width: 1320px;
-	height: 1710px;
+	height: 1748px;
 	margin: 0 auto;
 }
 #section_4{/*section_4*/
@@ -509,7 +514,7 @@ body{
 	width: 100%;
 }
 #section_5{/*section_5*/
-	height: 792px;
+	height: 830px;
 }
 #section_5 .section_head_txt{
 	padding-bottom: 80px;
@@ -533,7 +538,7 @@ position: relative;
 .review_head_txt{
 	text-align: center;
 	font-size: 16px;
-	font-weight: 500;
+	font-weight: 400;
 	color: #4cd36b;
 }
 .review_txt{
@@ -550,7 +555,7 @@ position: relative;
 }
 .section_5_btn_wrap{
 	text-align: center;
-	padding-top: 100px;
+	padding-top: 120px;
 }
 .section_5_btn a{
 	display: inline-block;
@@ -563,8 +568,8 @@ position: relative;
 }
 /*footer_S*/
 #footer_wrap{
-	height: 230px;
-	border-top: #57e578 2px solid;
+	height: 220px;
+	border-top: #eeeeee 1px solid;
 }
 #footer{
 	width: 1320px;
@@ -575,10 +580,10 @@ position: relative;
 	float: left;
 }
 .footer_logo{
-	color: #3fc963;
-	font-size: 20px;
-	font-weight: 600;
-	padding-bottom: 20px;
+	color: #aaa;
+	font-size: 13px;
+	font-weight: 500;
+	padding-bottom: 10px;
 }
 .footer_logo img{
 	width: 43.19px;
