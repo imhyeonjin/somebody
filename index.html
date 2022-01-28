@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=1320">
+		<title></title>
+		<link rel="icon" type="image/png" sizes="32x32" href="images/favicon.png">
+		<link href="css/style.css" rel="stylesheet" type="text/css">
+		<!--font-->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&family=Noto+Serif+KR&display=swap" rel="stylesheet">
+		<!--popup-->
+		<script src="js/jquery-1.12.4.min.js"></script>
+		<script src="js/popup.js"></script>
+		<!--click_fade-->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script>
+			$(function(){
+					$(function(){
+						$("#button1").mouseenter(function(){
+							$(".pic1").fadeIn();
+							$(".pic2").fadeOut();
+							$(".pic3").fadeOut();
+							$(".pic4").fadeOut();
+							$(".pic5").fadeOut();
+						});	
+						$("#button1").mouseleave(function(){
+							$(".pic1").fadeOut();
+						});	
+					});	
+					$(function(){
+						$("#button2").mouseenter(function(){
+							$(".pic1").fadeOut();
+							$(".pic2").fadeIn();
+							$(".pic3").fadeOut();
+							$(".pic4").fadeOut();
+							$(".pic5").fadeOut();
+						});	
+						$("#button2").mouseleave(function(){
+							$(".pic2").fadeOut();
+						});	
+					});	
+					$(function(){
+						$("#button3").mouseenter(function(){
+							$(".pic1").fadeOut();
+							$(".pic2").fadeOut();
+							$(".pic3").fadeIn();
+							$(".pic4").fadeOut();
+							$(".pic5").fadeOut();
+						});	
+						$("#button3").mouseleave(function(){
+							$(".pic3").fadeOut();
+						});	
+					});
+					$(function(){
+						$("#button4").mouseenter(function(){
+							$(".pic1").fadeOut();
+							$(".pic2").fadeOut();
+							$(".pic3").fadeOut();
+							$(".pic4").fadeIn();
+							$(".pic5").fadeOut();
+						});	
+						$("#button4").mouseleave(function(){
+							$(".pic4").fadeOut();
+						});	
+					});
+					$(function(){
+						$("#button5").mouseenter(function(){
+							$(".pic1").fadeOut();
+							$(".pic2").fadeOut();
+							$(".pic3").fadeOut();
+							$(".pic4").fadeOut();
+							$(".pic5").fadeIn();
+						});	
+						$("#button5").mouseleave(function(){
+							$(".pic5").fadeOut();
+						});	
+					});	
+			});
+		</script>
+		<!--mobile_Swiper's CSS-->
+		<link href="css/swiper-bundle.min.css" rel="stylesheet" type="text/css">
+    <!--<link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />-->
+		<!--galley-->
+		<link rel="stylesheet" type="text/css" href="js/slick.css">
+		<link rel="stylesheet" type="text/css" href="js/slick-theme.css">
+		<link rel="stylesheet" type="text/css" href="css/gallery_style.css">		
+	</head>
+	<body>
+		<!--popup_S-->
+		<div class="popup_btn">
+			<a href="#"><img src="images/main/Help_popup_btn.png" alt="popup_btn"></a>
+		</div>
+		<div class="popup">
+			<ul class="popup_icon">
+				<li><a href="#"><img src="images/popup/popup_icon_1.png" alt="popup_icon"></a></li>
+				<li class="close"><a href="#"><img src="images/popup/popup_icon_2.png" alt="popup_icon"></a></li>
+			</ul>
+			<p class="popup_notice">[Somebody 고객센터]<br>평일 10:00 - 18:00 (주말 및 공휴일 제외)</p>
+			<div class="popup_inbox">
+				<p class="popup_text">
+					<b>Somebody</b><br>
+					안녕하세요!<br>
+					somebody 고객센터입니다.
+					아래 문의하기를 버튼을 누르면
+					상담원과 연결해 드리겠습니다.<br>
+					<span>
+						*평일 10:00 - 18:00<br>
+						(주말 및 공휴일 제외)
+					</span> 
+				</p>
+				<p class="popup_text">
+					<b>Somebody</b><br>
+					추가 지원이 필요한 경우 상단에
+					위치한 기타 문의 옵션을 확인해
+					주세요. 
+				</p>
+				<div class="popup_inbox_icon">
+					<a href="#"><img src="images/popup/popup_icon_3.png" alt="popup_icon"></a>
+				</div>
+			</div>
+			<div class="popup_send_btn_wrap">
+				<div class="popup_send_btn">
+					<a href="#">문의하기</a>
+				</div>
+			</div>
+		</div>
+		<!--top_S-->
+		<div id="top"><!--header/media-->
+			<div id="header"><!--scroll-->
+				<div class="a">
+					<div id="header_scroll"><!--1320px/70px-->
+						<h1 class="logo">
+							<a href="#"><img src="images/main/main_logo.png" alt="main_logo"></a>
+						</h1>
+						<ul id="util">
+							<li><a href="#">로그인</a></li>
+							<li><a href="#">I</a></li>
+							<li><a href="#">크루 회원가입</a></li>
+						</ul>
+						<ul id="gnb">
+							<li><a href="#">심리상담 받기</a></li>
+							<li><a href="#">프로그램</a></li>
+							<li><a href="#">커뮤니티</a></li>
+							<li><a href="#">도움말</a></li>
+						</ul>
+					</div>	
+				</div>
+				<div class="b"><!--boder_bottom-->
+					<div id="header_scroll"><!--1320px/70px-->
+						<h1 class="logo">
+							<a href="#"><img src="images/main/main_logo fixed.png" alt="main_logo"></a>
+						</h1>
+						<ul id="util">
+							<li><a href="#">로그인</a></li>
+							<li><a href="#">I</a></li>
+							<li><a href="#">크루 회원가입</a></li>
+						</ul>
+						<ul id="gnb">
+							<li><a href="#">심리상담 받기</a></li>
+							<li><a href="#">프로그램</a></li>
+							<li><a href="#">커뮤니티</a></li>
+							<li><a href="#">도움말</a></li>
+						</ul>
+					</div>						
+				</div>				
+
+			</div>
+
+			<div id="media"><!--full-->
+				<img src="images/main/header_banner_690px.jpg" alt="media">
+			</div>
+			<!--
+			<div id="media">
+				<video muted="" preload="true" autoplay loop>
+						 muted : 음소거
+						 preload : 재생 전 미리 불러오기
+						 loop : 무한반복
+						 autoplay : 자동재생
+						 controls : 컨트롤패널
+					<source src="media/nike.mp4" type="video/mp4">
+				</video>
+			</div>
+			-->
+		</div>
+
+		<!--header_scroll_js-->
+		<script src="js/jquery-2.2.4.min.js"></script>
+		<script src="js/main.js"></script>	
+
+		<!--container_1_S-->
+		<div id="container_1">
+			<div id="section_1"><!--section_1_S-->
+				<h2 class="section_head_txt">오늘의 마음</h2>
+				<div id="slide_wrap">
+					<div class="slide_area">
+						<p class="pic pic_all">
+							<img src="images/main/feelings_character_all.png" alt="pic"><br>마음을 돌보는 건 정말 소중한 일이야
+						</p>
+						<p class="pic pic1">
+							<img src="images/main/feelings_character_confusion.png" alt="pic"><br>조금 혼란스러워도 금방 길을 찾을 수 있어!
+						</p>
+						<p class="pic pic2">
+							<img src="images/main/feelings_character_blue.png" alt="pic"><br>울어도 괜찮아, 내가 곁에 있어줄게
+						</p>
+						<p class="pic pic3">
+							<img src="images/main/feelings_character_calm.png" alt="pic"><br>오늘도 평온한 하루가 될 거야 :)
+						</p>
+						<p class="pic pic4">
+							<img src="images/main/feelings_character_happy.png" alt="pic"><br>행복은 생각보다 가까이에 있어!
+						</p>
+						<p class="pic pic5">
+							<img src="images/main/feelings_character_angry.png" alt="pic"><br>화가 날 때는 나랑 이야기해 보자!
+						</p>
+					</div>
+					<button id="button1"></button>
+					<button id="button2"></button>
+					<button id="button3"></button>
+					<button id="button4"></button>
+					<button id="button5"></button>
+				</div>
+			</div>
+			<div id="section_2"><!--section_2_S-->
+				<h2 class="section_head_txt">Somebody 톡톡!</h2>
+				<div id="chat_wrap">
+					<div class="chat">
+						<p class="chat_text box_1">오늘 하루도 수고 많았어요 :)</p>
+						<p class="chat_text box_2">아래 감정 키워드 중 오늘의 마음을 선택해 보세요!</p>
+						<ul class="keyword">
+							<li><a href="#">외로워요</a></li>
+							<li><a href="#">불안해요</a></li>
+							<li><a href="#">짜증나요</a></li>
+							<li><a href="#">우울해요</a></li>
+							<li><a href="#">힘들어요</a></li>
+							<li><a href="#">무서워요</a></li>
+							<li><a href="#">답답해요</a></li>
+							<li><a href="#">미안해요</a></li>
+							<li><a href="#">걱정돼요</a></li>
+							<li><a href="#">분해요</a></li>
+							<li><a href="#">고독해요</a></li>
+							<li><a href="#">복잡해요</a></li>
+							<li><a href="#">화가나요</a></li>
+							<li><a href="#">슬퍼요</a></li>
+							<li><a href="#">신나요</a></li>
+							<li><a href="#">덤덤해요</a></li>
+							<li><a href="#">쓸쓸해요</a></li>
+							<li><a href="#">창피해요</a></li>
+							<li><a href="#">아파요</a></li>
+							<li><a href="#">심란해요</a></li>
+							<li><a href="#">기뻐요</a></li>
+							<li><a href="#">무기력해요</a></li>
+						</ul>
+					</div>
+					<form action="#" class="chat_input">
+						<p><input type="text" placeholder="위 감정 키워드 중 오늘의 마음을 선택해 보세요!"></p>
+					</form>
+					<div class="send_btn"><a href="#"><img src="images/main/talk_send_btn.png" alt="send_btn"></a></div>
+				</div>
+				<div id="character_wrap">
+					<ul class="character box_gr">
+						<li>오늘은 맛있는 걸 잔뜩 먹었어!<br>기분이 너무 좋아.</li>
+						<li><img src="images/main/talk_character_happy.png" alt="chat_character"></li>
+					</ul>
+					<ul class="character box_wh">
+						<li><img src="images/main/talk_character_blue.png" alt="chat_character"></li>
+						<li>나는...,<br>오늘 하루가 조금 힘들었어.</li>
+					</ul>
+					<ul class="character box_gr">
+						<li>오늘은 정말 복잡한 하루였어!<br>너무 피곤해.</li>
+						<li><img src="images/main/talk_character_angry.png" alt="chat_character"></li>
+					</ul>
+				</div>
+			</div>
+			<div id="section_3"><!--section_3_S-->
+				<h2 class="section_head_txt">Somebody 전문 심리상담</h2>
+				<ul id="notice">
+					<li>
+						<h3>01</h3>
+						<p>"당신 그대로"를 보살필 수 있는 멘탈케어 서비스</p>
+					</li>
+					<li>
+						<h3>02</h3>
+						<p>믿을 수 있는 Somebody의 전문 심리상담사</p>
+						<ul class="notice_list">
+							<li>상담, 심리, 임상 전공 석사 졸업 이상의 학력</li>
+							<li>한국상담학회 전문상담사 2급 이상</li>
+							<li>한국상담심리학회 상담심리사 2급 이상</li>
+						</ul>
+					</li>
+					<li>
+						<h3>03</h3>
+						<p>상담진행 횟수, 참여자 후기로 검증된 상담사</p>
+					</li>
+				</ul>
+				<div id="doctors">
+					<div class="section_3_btn"><a href="#">심리상담 받기</a></div>
+				</div>
+			</div>
+		</div>
+		<!--middle_banner_S-->
+		<div id="mid_banner_wrap">
+			<div class="mid_banner">
+				<div class="google_btn"><a href="#"><img src="images/main/middle_banner_google_btn.png" alt="google_btn"></a></div>
+				<div class="apple_btn"><a href="#"><img src="images/main/middle_banner_apple_btn.png" alt="apple_btn"></a></div>
+			</div>
+		</div>
+		<!--container_2_S-->
+		<div id="container_2">
+			<div id="section_4"><!--section_4_S-->
+				<h2 class="section_head_txt">모바일 Somebody</h2>
+				<div class="mobile_icon_wrap_1">
+					<ul class="mobile_icon">
+						<li><img src="images/main/mobile_icon_box_1.png" alt="mobile_icon"></li>
+						<li>
+							<p>익명보장, 나만의 상담 서비스
+							<br><span>어디서든 편리하게 1:1 상담하기</span></p>
+						</li>
+					</ul>
+					<ul class="mobile_icon">
+						<li><img src="images/main/mobile_icon_box_2.png" alt="mobile_icon"></li>
+						<li>
+							<p>체계적인 마음 회복 커리큘럼
+							<br><span>하루 20분! 부담없이 수강하기</span></p>
+						</li>
+					</ul>
+				</div>
+				<div class="swiper mySwiper"><!--swiper-->
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<img src="images/main/mobile_mock_up_1.png" alt="mobile_mockup">
+						</div>
+						<div class="swiper-slide">
+							<img src="images/main/mobile_mock_up_2.png" alt="mobile_mockup">
+						</div>
+						<div class="swiper-slide">
+							<img src="images/main/mobile_mock_up_1.png" alt="mobile_mockup">
+						</div>
+						<div class="swiper-slide">
+							<img src="images/main/mobile_mock_up_2.png" alt="mobile_mockup">
+						</div>
+					</div>
+					<div class="swiper-pagination"></div>
+				</div>
+				<div class="mobile_icon_wrap_2">
+					<ul class="mobile_icon">
+						<li><img src="images/main/mobile_icon_box_3.png" alt="mobile_icon"></li>
+						<li>
+							<p>집 근처, 정신의학과 검색 서비스
+							<br><span>병원 경력, 후기, 위치 정보를 한눈에!</span></p>
+						</li>
+					</ul>
+					<ul class="mobile_icon">
+						<li><img src="images/main/mobile_icon_box_4.png" alt="mobile_icon"></li>
+						<li>
+							<p>따듯한 마음 공유 커뮤니티
+							<br><span>커뮤니티 속에서 따듯함 나누기</span></p>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div id="section_5"><!--section_5_S-->
+				<h2 class="section_head_txt">Somebody 마음 나누기</h2>
+				<div class="hashtag_wrap">
+					<p class="hashtag">#인간관계 #무기력 #자존감</p>
+				</div>
+				<!--gallery-->
+				<section class="regular slider">
+					<div>
+						<div class="gallery">
+							<p class="review_head_txt">취준 우울증 극복!</p>
+							<p class="review_txt">
+								취업 준비로 힘들었을 때 친구한테 소개받았어요~ 
+								매일 Somebody 마음 돌보기 수업 들으면서 취뽀했습니다~! 
+								모든 취준생, 수험생 여러분 힘내세요! :)
+							</p>
+							<p class="reviewer">1004...님</p>
+						</div>
+					</div>
+					<div>
+						<div class="gallery">
+							<p class="review_head_txt">감정 컨트롤엔 Somebody</p>
+							<p class="review_txt">
+								요즘 기분이 좀 우울해서 썸바디를 깔아봤어요. 
+								커뮤니티 속에서 비슷한 사람들과 대화하고 상담 선생님과 
+								주저리 하니 제가 왜 우울했는지 알겠더라구요. ㅎㅎ 
+								감정 컨트롤엔 최고예요!
+							</p>
+							<p class="reviewer">8282...님</p>
+						</div>
+					</div>
+					<div>
+						<div class="gallery">
+							<p class="review_head_txt">무기력 같이 이겨내요~</p>
+							<p class="review_txt">
+								코로나로 인한 무기력인지 자꾸만 몸도 마음도 쳐져서 
+								활력 얻으려고 프로그램 수강했습니다!! 아직 시작한 지 
+								1주일 차지만 마지막까지 완강해서 힘 얻고 갈게요~~^^
+							</p>
+							<p class="reviewer">9213...님</p>
+						</div>
+					</div>
+					<div>
+						<div class="gallery">
+							<p class="review_head_txt">직장 스트레스 해소하기</p>
+							<p class="review_txt">
+								직장 스트레스로 꽤 힘들었습니다. 도저히 혼자 힘으로 
+								해결할 수 없어 톡 상담을 받았습니다. 상담이 처음이라 
+								조금 꺼렸는데 받고 나니 마음이 한결 편안해진 걸 
+								느꼈습니다. 좋은 상담 감사합니다.
+							</p>
+							<p class="reviewer">1201...님</p>
+						</div>
+					</div>
+					<div>
+						<div class="gallery">
+							<p class="review_head_txt">이별에 괴로울 때...</p>
+							<p class="review_txt">
+								가까운 사람과 멀어지고 많이 괴로했어요... 
+								그때 슬픔 돌보기를 수강하면서 스스로를 
+								자책하는 걸 멈추고 내면의 상처를 치료했습니다.
+								저처럼 이별 휴유증 힘드신 분들 수강 추천해요. 
+							</p>
+							<p class="reviewer">7752...님</p>
+						</div>
+					</div>
+				</section>
+				<div class="section_5_btn_wrap">
+					<div class="section_5_btn"><a href="#">프로그램 바로가기</a></div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        spaceBetween: 30,
+        effect: "fade",
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        autoplay: true, /* 자동으로 다음이미지 보여주기 */         
+        autoplaySpeed:1000,/* 다음이미지로 넘어갈 시간 */         
+        speed:1000 , /* 다음이미지로 넘겨질때 걸리는 시간 */             
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
+    </script>
+
+		<!--gallery_js-->
+		<script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+		<script src="js/slick.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			$(document).on('ready', function() {
+		$(".regular").slick({infinite: true , /* 맨끝이미지에서 끝나지 않고 다시 맨앞으로 이동 */         
+		slidesToShow: 4, /* 화면에 보여질 이미지 갯수*/        
+		slidesToScroll: 1,  /* 스크롤시 이동할 이미지 갯수 */         
+		autoplay: true, /* 자동으로 다음이미지 보여주기 */         
+		arrows: true, /* 화살표 */         
+		autoplaySpeed:2000,/* 다음이미지로 넘어갈 시간 */         
+		speed:1000 , /* 다음이미지로 넘겨질때 걸리는 시간 */         
+		pauseOnHover:true, /* 마우스 호버시 슬라이드 이동 멈춤 */        
+		//vertical:true,/* 세로방향으로 슬라이드를 원하면 추가하기// 기본값 가로방향 슬라이드*/        
+					 });
+	
+			});
+	</script>
+	
+		<!--footer_S-->
+		<div id="footer_wrap">
+			<div id="footer">
+				<div class="info_wrap">
+					<h4 class="footer_logo"><img src="images/main/footer_logo.png" alt="footer_logo"></h4><!--
+					<h4 class="footer_logo">(주) 썸바디</h4>-->
+					<ul class="info">
+						<li><a href="#">회사소개</a></li>
+						<li><a href="#">인재채용</a></li>
+						<li><a href="#">서비스 이용약관</a></li>
+						<li><a href="#">개인정보 처리 방침</a></li>
+						<li><a href="#">공지사항</a></li>
+						<li><a href="#">도움말</a></li>
+					</ul>
+					<p class="footer_text">
+						㈜ 썸바디 | 대표 임현진 | 서울특별시 종로구 사직로 161, A타워 7층 701호 | 사업자등록번호 123-45-67890 | 통신판매업 2022-서울종로-9123<br>
+            © Somebody. co., Ltd.All Rights Reserved.
+					</p>
+				</div>
+				<div class="footer_icon_wrap">
+					<ul class="footer_icon footer_icon_b">
+						<li><a href="#"><img src="images/main/footer_mail_icon_hover.png" alt="mail_icon"></a></li>
+						<li><a href="#"><img src="images/main/footer_sns_icon_1_hover.png" alt="sns_icon_1"></a></li>
+						<li><a href="#"><img src="images/main/footer_sns_icon_2_hover.png" alt="sns_icon_2"></a></li>
+						<li><a href="#"><img src="images/main/footer_sns_icon_3_hover.png" alt="sns_icon_3"></a></li>
+						<li><a href="#"><img src="images/main/footer_sns_icon_4_hover.png" alt="sns_icon_4"></a></li>
+					</ul>
+					<ul class="footer_icon footer_icon_a">
+						<li><a href="#"><img src="images/main/footer_mail_icon.png" alt="mail_icon"></a></li>
+						<li><a href="#"><img src="images/main/footer_sns_icon_1.png" alt="sns_icon_1"></a></li>
+						<li><a href="#"><img src="images/main/footer_sns_icon_2.png" alt="sns_icon_2"></a></li>
+						<li><a href="#"><img src="images/main/footer_sns_icon_3.png" alt="sns_icon_3"></a></li>
+						<li><a href="#"><img src="images/main/footer_sns_icon_4.png" alt="sns_icon_4"></a></li>
+					</ul>	
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
+
+
+
+
+
