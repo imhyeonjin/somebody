@@ -6,6 +6,7 @@ body{
 	font-size:14px;
 	color:#333;
 	line-height:24px;
+	min-width: 1320px;
 }
 /*popup_S*/
 #popup_btn{position: fixed; bottom: 50px; right: 50px; z-index: 1;}
