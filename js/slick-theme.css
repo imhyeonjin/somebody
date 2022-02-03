@@ -91,7 +91,13 @@
 }
 .slick-prev:before
 {
-    content: url(../images/main/review_left_btn.png);
+    /*content: url(../images/main/review_left_btn.png);*/
+    content: "";
+    background-image: url(../images/main/review_left_btn.png);
+    background-size: 100%;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
 }
 [dir='rtl'] .slick-prev:before
 {
@@ -108,7 +114,13 @@
 }
 .slick-next:before
 {
-    content: url(../images/main/review_right_btn.png);
+    /*content: url(../images/main/review_right_btn.png);*/
+    content: "";
+    background-image: url(../images/main/review_right_btn.png);
+    background-size: 100%;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
 }
 [dir='rtl'] .slick-next:before
 {
