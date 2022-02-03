@@ -53,12 +53,24 @@
 .slick-prev:hover:before,
 .slick-prev:focus:before
 {
-    content: url(../images/main/review_left_btn_hover_2.png);
+    /*content: url(../images/main/review_left_btn_hover_2.png);*/
+    content: "";
+    background-image: url(../images/main/review_left_btn_hover_2.png);
+    background-size: 100%;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
 }
 .slick-next:hover:before,
 .slick-next:focus:before
 {
-    content: url(../images/main/review_right_btn_hover_2.png);
+    /*content: url(../images/main/review_right_btn_hover_2.png);*/
+    content: "";
+    background-image: url(../images/main/review_right_btn_hover_2.png);
+    background-size: 100%;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
 }
 .slick-prev.slick-disabled:before,
 .slick-next.slick-disabled:before
