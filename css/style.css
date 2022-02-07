@@ -3,9 +3,9 @@ a{text-decoration: none; color: #333;}/*밑줄,글자색바꾸기*/
 ul{list-style: none;}/*블릿없애기*/
 body{
 	font-family: 'Noto Sans KR', sans-serif;
-	font-size:14px;
+	font-size:16px;
 	color:#333;
-	line-height:24px;
+	line-height: 1.5em;
 	min-width: 1320px;
 }
 /*popup_S*/
@@ -135,14 +135,14 @@ body{
 }
 .logo{
 	float: left;
-	padding-top: 3px;
+	padding-top: 2px;
 }
 .logo img{
 	width: 90%;
 }
 #util{
 	float: right;
-	padding-top: 14px;
+	padding-top: 11px;
 }
 #util li{
 	float: left;
@@ -159,12 +159,13 @@ body{
 	color: #757575;
 }
 #util li:nth-child(2){cursor: none;}
+#util li:nth-child(2) a{font-weight: 100;}
 #util li:nth-child(3) a{color: #ecff91;}
 .b #util li:nth-child(3) a{color: #3fc963;}
 #gnb{
 	float: right;
 	width: 410px;
-	padding-top: 14px;
+	padding-top: 13px;
 }
 #gnb li{
 	float: left;
@@ -211,7 +212,7 @@ body{
 }
 .pic{
 	position: absolute; 
-	bottom: 120px; 
+	bottom: 115px; 
 	left: 50%;
 	margin-left: -250px;
 	font-size: 24px;
@@ -469,19 +470,19 @@ body{
 	padding-top: 120px;
 }
 .mobile_icon_wrap_1{
-	width: 526px;
+	width: 523px;
 	height: 714px;
 	float: left;
 	padding-top: 170px;
 }
 .mobile_icon_wrap_2{
-	width: 526px;
+	width: 523px;
 	height: 714px;
 	float: left;
 	padding-top: 170px;
 }
 .mobile_icon{
-	width: 526px;
+	width: 523px;
 	overflow: hidden;
 	padding: 25px 0 30px 60px;
 }
@@ -501,7 +502,7 @@ body{
 	padding: 24px 20px;
 }
 .swiper{/*swiper*/
-	width: 268px;
+	width: 274px;
 	height: 690px;
 	float: left;
 	margin-top: 15px;
