@@ -216,7 +216,7 @@ body{
 	left: 50%;
 	margin-left: -250px;
 	font-size: 24px;
-	font-weight: 500;
+	font-weight: 400;
 	background-color: #fff;
 }
 .pic img{
@@ -298,7 +298,7 @@ body{
 }
 .chat_text{
 	font-size: 16px;
-	font-weight: 500;
+	font-weight: 400;
 	padding: 10.505px 24px;
 	margin-top: 25px;
 }
@@ -312,7 +312,7 @@ body{
 .keyword li a{
 	display: inline-block;
 	font-size: 16px;
-	font-weight: 500;
+	font-weight: 400;
 	color: #333;
 	border: #c1c1c1 1px solid;
 	border-radius: 100px;
@@ -400,7 +400,7 @@ body{
 }
 #notice li p{
 	font-size: 20px;
-	font-weight: 700;
+	font-weight: 500;
 	padding-bottom: 4px;
 }
 #notice li:nth-child(1) p{
@@ -422,15 +422,15 @@ body{
 #notice> li:nth-child(2){padding: 60px 0;}
 .section_3_btn a{
 	display: inline-block;
-	font-size: 20px;
-	font-weight: 700;
+	font-size: 18px;
+	font-weight: 600;
 	color: #57e578;
 	border: #57e578 2px solid;
 	border-radius: 100px;
 	background-color: #fff;
-	padding: 18px 22px;
+	padding: 15px 26px;
 	position: absolute;
-	bottom: 120px;
+	bottom: 130px;
 	right: 75px;
 }
 /*middle_banner_S*/
