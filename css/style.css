@@ -142,7 +142,7 @@ body{
 }
 #util{
 	float: right;
-	padding-top: 11px;
+	padding-top: 12px;
 }
 #util li{
 	float: left;
@@ -151,7 +151,7 @@ body{
 #util li a{
 	font-size: 13px;
 	font-weight: 500;
-	color: #f7f3cc;
+	color: #fffce4;
 }
 .b #util li a{
 	font-size: 13px;
@@ -174,12 +174,18 @@ body{
 #gnb li a{
 	font-size: 15px;
 	font-weight: 400;
-	color: #f7f3cc;
+	color: #fffce4;
 }
 .b #gnb li a{
 	font-size: 15px;
 	font-weight: 400;
 	color: #757575;
+}
+.a #gnb li a:hover{
+	color: #ecff91;
+}
+#gnb li a:hover{
+	color: #3fc963;
 }
 #media{
 	text-align: center;
@@ -238,6 +244,7 @@ body{
 	bottom: 223px;
 	left: 205px;
 	opacity: 0;
+	cursor: pointer;
 }
 #button2{
 	height: 33px;
@@ -247,6 +254,7 @@ body{
 	bottom: 509px;
 	left: 348px;
 	opacity: 0;
+	cursor: pointer;
 }
 #button3{
 	height: 33px;
@@ -256,6 +264,7 @@ body{
 	top: 0;
 	left: 644px;
 	opacity: 0;
+	cursor: pointer;
 }
 #button4{
 	height: 33px;
@@ -265,6 +274,7 @@ body{
 	bottom: 509px;
 	right: 348px;
 	opacity: 0;
+	cursor: pointer;
 }
 #button5{
 	height: 33px;
@@ -274,6 +284,7 @@ body{
 	bottom: 223px;
 	right: 205px;
 	opacity: 0;
+	cursor: pointer;
 }
 #section_2{/*section_2*/
 	height: 725px;
