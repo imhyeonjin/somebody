@@ -448,6 +448,7 @@ body{
 }
 /*middle_banner_S*/
 #mid_banner_wrap{
+	margin: 40px 0;
 	height: 300;
 	background: url(../images/main/mid_banner_bg.jpg) repeat center;
 }
